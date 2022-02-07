@@ -1,0 +1,6 @@
+@import url(../vender/normalize.css);
+@import url(../vender/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/position/position_center.css);
+/* весь контент в блоке с max-width 1440px
