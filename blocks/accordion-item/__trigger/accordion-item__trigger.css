@@ -1,0 +1,16 @@
+.accordion-item__trigger {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 33px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-item__trigger::before {
+  content: '';
+  display: inline-block;
+  margin-right: 6px;
+  width: 11px;
+  height: 6px;
+  background: url(../../../images/iconForAccordionIcon.png) no-repeat center/cover;
+}

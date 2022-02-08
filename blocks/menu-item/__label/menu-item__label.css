@@ -1,0 +1,17 @@
+.menu-item__label {
+  position: relative;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.menu-item__label::before {
+  content: '';
+  display: inline-block;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-right: 10px;
+}

@@ -3,4 +3,34 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/position/position_center.css);
-/* весь контент в блоке с max-width 1440px
+@import url(../blocks/text/_position/text_position_accordeon.css);
+@import url(../blocks/text/_size/text_size_bold.css);
+@import url(../blocks/text/_size/text_size_semibold.css);
+@import url(../blocks/text/_size/text_size_medium.css);
+/* весь контент в блоке с max-width 1440px */
+
+/* секция аккордион */
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
+@import url(../blocks/accordion-item/accordion-item.css);
+@import url(../blocks/accordion-item/__title/accordion-item__title.css);
+@import url(../blocks/accordion-item/__trigger/accordion-item__trigger.css);
+@import url(../blocks/accordion-item/__input/accordion-item__input.css);
+@import url(../blocks/accordion-item/__title-container/accordion-item__title-container.css);
+@import url(../blocks/accordion-item/__content/accordion-item__content.css);
+@import url(../blocks/accordion-item/__button/accordion-item__button.css);
+@import url(../blocks/menu-item/__input/menu-item__input.css);
+@import url(../blocks/menu-item/__label/menu-item__label.css);
+/* /секция аккордион */
+
+
+
+
+
+
+
+
+
+
+
+

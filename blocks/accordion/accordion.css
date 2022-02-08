@@ -1,0 +1,6 @@
+.accordion {
+  max-width:  312px;
+  min-width: 270px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px 0 rgba(231,232,235,.6);
+}
