@@ -1,0 +1,15 @@
+.header__link {
+  display: flex;
+  font-family: Golos;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #212329;
+
+  transition: opacity .5s ease;
+}
+
+.header__link:hover {
+    opacity: .7;
+}
