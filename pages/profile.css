@@ -3,6 +3,25 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/position/position_center.css);
-
+/*кнопки профиля*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__profile/button__profile.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__link-icon/header__link-icon.css);
+
+@import url("../blocks/input/input.css");
+@import url("../blocks/personal/__data-field/_photo/personal__data-field_photo.css");
+@import url("../blocks/personal/__data-fields/personal__data-fields.css");
+@import url("../blocks/personal/__data-label/personal__data-label.css");
+@import url("../blocks/personal/__data-title/personal__data-title.css");
+@import url("../blocks/personal/__data/personal__data.css");
+@import url("../blocks/personal/__caption/personal__caption.css");
+@import url("../blocks/personal/__data-field/personal__data-field.css");
+@import url("../blocks/personal/personal.css");
+@import url("../blocks/personal/__list-item/personal__list-item.css");
+

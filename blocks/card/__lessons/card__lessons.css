@@ -1,0 +1,7 @@
+.card__lessons {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  background: url(../../../images/book-icon-vctr.svg) no-repeat left center;
+  padding-left: 30px;
+}

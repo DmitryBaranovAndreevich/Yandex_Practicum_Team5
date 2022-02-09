@@ -1,0 +1,8 @@
+.card__duration {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  background: url(../../../images/clock-icon-vctr.svg) no-repeat left center;
+  padding-left: 30px;
+  margin-top: 16px;
+}
