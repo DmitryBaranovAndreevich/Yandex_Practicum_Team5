@@ -1,0 +1,22 @@
+.personal__data-field {
+  margin: 0;
+  padding: 12px 56px 12px 16px;
+  border: 1.2px solid #e6e7eb;
+  background-image: url("../../../images/edit-picture.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: right 16px center;
+  background-size: 20px 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 93%;
+}
+
+.personal__data-field:focus {
+  outline: none;
+  border: 1.2px solid #ff6600;
+}
+
+.personal__data-field::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
