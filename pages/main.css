@@ -12,3 +12,17 @@
 @import url(../blocks/header/__link-icon/header__link-icon.css);
 
 
+/* карточки */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card-list/card-list.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__content/card__content.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__duration/card__duration.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__lessons/card__lessons.css);
+@import url(../blocks/card/__status/card__status.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__flex-wrapper/card__flex-wrapper.css);
+@import url(../blocks/card/__btn/card__btn.css);
+
