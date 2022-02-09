@@ -9,6 +9,8 @@
   cursor: pointer;
   background-color: transparent;
   transition: opacity .5s ease;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .button:hover {

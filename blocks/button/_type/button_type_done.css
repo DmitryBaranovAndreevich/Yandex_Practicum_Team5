@@ -1,0 +1,11 @@
+.button_type_done {
+    color: #9397a4;
+    background-color: #e6e7eb;
+    border: none;
+    transition: none;
+    cursor: default;
+}
+
+.button_type_done:hover {
+  opacity: 1;
+}
