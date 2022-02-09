@@ -11,7 +11,9 @@
 
 /* секция аккордион */
 @import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__container/accordion__container.css);
 @import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
+@import url(../blocks/accordion/__boxForActiveInput/accordion__boxForActiveInput.css);
 @import url(../blocks/accordion-item/accordion-item.css);
 @import url(../blocks/accordion-item/__title/accordion-item__title.css);
 @import url(../blocks/accordion-item/__trigger/accordion-item__trigger.css);
@@ -19,18 +21,11 @@
 @import url(../blocks/accordion-item/__title-container/accordion-item__title-container.css);
 @import url(../blocks/accordion-item/__content/accordion-item__content.css);
 @import url(../blocks/accordion-item/__button/accordion-item__button.css);
+@import url(../blocks/accordion-item/__button/_active/accordion-item__button_active.css);
 @import url(../blocks/menu-item/__input/menu-item__input.css);
 @import url(../blocks/menu-item/__label/menu-item__label.css);
+@import url(../blocks/active-input/active-input.css);
+@import url(../blocks/active-input/__close-button/active-input__close-button.css);
+@import url(../blocks/active-input/_notActive/active-input_notActive.css);
 /* /секция аккордион */
-
-
-
-
-
-
-
-
-
-
-
 

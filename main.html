@@ -16,69 +16,81 @@
 
       <!-- секция аккордион -->
       <section class="accordion">
-        <div class="accordion__wrapper">
-          <div class="accordion-item">
-            <div class="accordion-item__title-container">
-              <h2 class="accordion-item__title text_size_bold">Фильтры</h2>
-              <button class="accordion-item__button text_size_semibold" type="button"
-                aria-label="Очистить">Очистить</button>
+        <div class="accordion__container">
+          <div class="accordion__wrapper">
+            <div class="accordion-item">
+              <div class="accordion-item__title-container">
+                <h2 class="accordion-item__title text_size_bold">Фильтры</h2>
+                <button class="accordion-item__button text_size_semibold accordion-item__button_active" type="button"
+                  aria-label="Очистить">Очистить</button>
+              </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <input class="accordion-item__input" type="checkbox" id="accordion-item1">
-            <label for="accordion-item1" class="accordion-item__trigger text_size_medium">Категория</label>
-            <fieldset class="accordion-item__content">
-              <!-- <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item1">
+              <label for="accordion-item1" class="accordion-item__trigger text_size_medium">Категория</label>
+              <fieldset class="accordion-item__content">
+                <!-- <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
                 <label class="menu-item__label text_size_medium" for="#1">?????</label>
                 <input type="checkbox" class="menu-item__input" name="????" id="#2" value="???????">
                 <label class="menu-item__label text_size_medium" for="#2">?????</label>
                 <input type="checkbox" class="menu-item__input" name="???????" id="??????" value="????????">
                 <label class="menu-item__label text_size_medium" for="professional">?????</label> -->
-            </fieldset>
-          </div>
-          <div class="accordion-item">
-            <input class="accordion-item__input" type="checkbox" id="accordion-item2">
-            <label for="accordion-item2" class="accordion-item__trigger text_size_medium">Тематика</label>
-            <fieldset class="accordion-item__content">
-              <!-- <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
+              </fieldset>
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item2">
+              <label for="accordion-item2" class="accordion-item__trigger text_size_medium">Тематика</label>
+              <fieldset class="accordion-item__content">
+                <!-- <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
                     <label class="menu-item__label text_size_medium" for="#1">?????</label>
                     <input type="checkbox" class="menu-item__input" name="????" id="#2" value="???????">
                     <label class="menu-item__label text_size_medium" for="#2">?????</label>
                     <input type="checkbox" class="menu-item__input" name="???????" id="??????" value="????????">
                     <label class="menu-item__label text_size_medium" for="professional">?????</label> -->
-            </fieldset>
+              </fieldset>
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item3">
+              <label for="accordion-item3" class="accordion-item__trigger text_size_medium">Уровень</label>
+              <fieldset class="accordion-item__content">
+                <input type="checkbox" class="menu-item__input" name="Новичёк" id="newcommer"
+                  value="without_experience">
+                <label class="menu-item__label text_size_medium" for="newcommer">Новичек</label>
+                <input type="checkbox" class="menu-item__input" name="Бывалый" id="experienced"
+                  value="small_experience">
+                <label class="menu-item__label text_size_medium" for="experienced">Бывалый</label>
+                <input type="checkbox" class="menu-item__input" name="Профессионал" id="professional"
+                  value="big_experience">
+                <label class="menu-item__label text_size_medium" for="professional">Профессионал</label>
+              </fieldset>
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item4">
+              <label for="accordion-item4" class="accordion-item__trigger text_size_medium">Статус</label>
+              <fieldset class="accordion-item__content">
+                <input type="checkbox" class="menu-item__input" name="Ничего" id="not_active" value="not_activated">
+                <label class="menu-item__label text_size_medium" for="not_active">Не активный</label>
+                <input type="checkbox" class="menu-item__input" name="Планируется" id="recorded"
+                  value="small_activated">
+                <label class="menu-item__label text_size_medium" for="recorded">Вы записаны</label>
+                <input type="checkbox" class="menu-item__input" name="Активно" id="active" value="middle_activated">
+                <label class="menu-item__label text_size_medium" for="active">Активный</label>
+                <input type="checkbox" class="menu-item__input" name="Пройдено" id="finish" value="big_experience">
+                <label class="menu-item__label text_size_medium" for="finish">Пройден</label>
+              </fieldset>
+            </div>
           </div>
-          <div class="accordion-item">
-            <input class="accordion-item__input" type="checkbox" id="accordion-item3">
-            <label for="accordion-item3" class="accordion-item__trigger text_size_medium">Уровень</label>
-            <fieldset class="accordion-item__content">
-              <input type="checkbox" class="menu-item__input" name="Новичёк" id="newcommer" value="without_experience">
-              <label class="menu-item__label text_size_medium" for="newcommer">Новичек</label>
-              <input type="checkbox" class="menu-item__input" name="Бывалый" id="experienced" value="small_experience">
-              <label class="menu-item__label text_size_medium" for="experienced">Бывалый</label>
-              <input type="checkbox" class="menu-item__input" name="Профессионал" id="professional"
-                value="big_experience">
-              <label class="menu-item__label text_size_medium" for="professional">Профессионал</label>
-            </fieldset>
-          </div>
-          <div class="accordion-item">
-            <input class="accordion-item__input" type="checkbox" id="accordion-item4">
-            <label for="accordion-item4" class="accordion-item__trigger text_size_medium">Статус</label>
-            <fieldset class="accordion-item__content">
-              <input type="checkbox" class="menu-item__input" name="Ничего" id="not_active" value="not_activated">
-              <label class="menu-item__label text_size_medium" for="not_active">Не активный</label>
-              <input type="checkbox" class="menu-item__input" name="Планируется" id="recorded" value="small_activated">
-              <label class="menu-item__label text_size_medium" for="recorded">Вы записаны</label>
-              <input type="checkbox" class="menu-item__input" name="Активно" id="active" value="middle_activated">
-              <label class="menu-item__label text_size_medium" for="active">Активный</label>
-              <input type="checkbox" class="menu-item__input" name="Пройдено" id="finish" value="big_experience">
-              <label class="menu-item__label text_size_medium" for="finish">Пройден</label>
-            </fieldset>
-          </div>
+        </div>
+        <div class="accordion__boxForActiveInput">
+          <p class="active-input text_size_medium">Новичек<button class="active-input__close-button" type="button"
+              aria-label="Закрыть"></button></p>
+          <p class="active-input text_size_medium">Профессионал<button class="active-input__close-button" type="button"
+              aria-label="Закрыть"></button></p>
+          <p class="active-input active-input_notActive text_size_medium">Вы записаны<button
+              class="active-input__close-button" type="button" aria-label="Закрыть"></button></p>
         </div>
       </section>
       <!-- /секция аккордион -->
-
     </main>
   </div>
 </body>

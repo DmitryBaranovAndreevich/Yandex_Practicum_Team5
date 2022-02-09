@@ -1,0 +1,16 @@
+.active-input__close-button {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 6px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: url(../../../images/iconToCloseButton.png) no-repeat center/cover;
+  vertical-align: bottom;
+  transition: opacity .4s;
+  cursor: pointer;
+}
+
+.active-input__close-button:hover {
+  opacity: .6;
+}
