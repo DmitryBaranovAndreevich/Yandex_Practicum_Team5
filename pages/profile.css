@@ -3,6 +3,14 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/position/position_center.css);
+/*кнопки профиля*/
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__profile/button__profile.css);
+@import url(../blocks/button/__exit-icon/button__exit-icon.css);
+@import url(../blocks/button/_type/button_type_disabled.css);
+@import url(../blocks/button/_type/button_type_filled.css);
+@import url(../blocks/button/_type/button_type_transparent.css);
+@import url(../blocks/button/_type/button_type_exit-icon.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -21,3 +29,4 @@
 @import url("../blocks/personal/__data-field/personal__data-field.css");
 @import url("../blocks/personal/personal.css");
 @import url("../blocks/personal/__list-item/personal__list-item.css");
+
