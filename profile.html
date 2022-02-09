@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="page position_center">
-    <!-- <header class="header page__header">
+    <header class="header page__header">
       <h2 class="header__logo">Учебная платформа</h2>
       <nav>
           <ul class="header__links">
@@ -52,6 +52,7 @@
               <input type="text" class="personal__data-field personal__data-field_photo" id="photo-url">
             </div>
           </form>
+          <button type="button" class="button button__profile button_type_filled">Сохранить изменения</button>
         </div>
         <div class="personal__text">
           <p class="personal__caption">Просьба указывать настоящие ФИО, это нужно для получения сертификатов</p>
@@ -80,19 +81,19 @@
               <input  type="password" class="personal__data-field" id="password">
             </div>
           </form>
+          <button type="button" class="button button__profile button_type_disabled disabled">Сохранить изменения</button>
         </div>
         <div class="personal__text">
           <p class="personal__caption">Номер телефона используется как уникальный идентификатор пользователя, поэтому его нельзя поменять вручную</p>
           <p class="personal__caption">Если по какой-то причине у вас нет доступа к номеру телефона на который вы регистрировали аккаунт, напишите в поддержку</p>
           <p class="personal__caption">Email нужен для восстановления пароля</p>
         </div>
-      </div> -->
-      <button type="button" class="button button__profile">
-        <img src="./vender/images/exitProfBtn.svg" alt="Иконка выхода из профиля">
+      </div>
+      <button type="button" class="button button__profile button_type_transparent button_type_exit-icon">
+        <img class="button__exit-icon" src="./vender/images/exitProfBtn.svg" alt="Иконка выхода из профиля">
         Выйти из аккаунта
       </button>
-      <button type="button" class="button button__profile">Сохранить изменения</button>
-    <!-- </main> -->
+    </main>
   </div>
 </body>
 </html>

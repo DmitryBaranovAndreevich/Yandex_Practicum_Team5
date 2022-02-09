@@ -1,4 +1,4 @@
-.button_type_done {
+.button_type_disabled {
     color: #9397a4;
     background-color: #e6e7eb;
     border: none;
@@ -6,6 +6,6 @@
     cursor: default;
 }
 
-.button_type_done:hover {
+.button_type_disabled:hover {
   opacity: 1;
 }

@@ -7,9 +7,9 @@
 /*кнопки курсов*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__courses/button__courses.css);
-@import url(../blocks/button/_type/button_type_done.css);
-@import url(../blocks/button/_type/button_type_go-on.css);
-@import url(../blocks/button/_type/button_type_sign-up.css);
+@import url(../blocks/button/_type/button_type_disabled.css);
+@import url(../blocks/button/_type/button_type_filled.css);
+@import url(../blocks/button/_type/button_type_transparent.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
