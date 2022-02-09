@@ -10,7 +10,70 @@
 <body>
   <div class="page position_center">
     <header class="header"></header>
-    <main class="content"></main>
+    <main class="content">
+      <div class="personal">
+        <div class="personal__data">
+          <h2 class="personal__data-title">
+            Личные данные
+          </h2>
+          <form class="personal__data-fields" name="about-person">
+            <div class="input">
+              <label for="fullname" class="personal__data-label">ФИО</label>
+              <input type="text" class="personal__data-field" id="fullname">
+            </div>
+            <div class="input">
+              <label for="birthday" class="personal__data-label">Дата рождения</label>
+              <input type="date" class="personal__data-field" id="birthday">
+            </div>
+            <div class="input">
+              <label for="town" class="personal__data-label">Географический регион</label>
+              <input type="text" class="personal__data-field" id="town">
+            </div>
+            <div class="input">
+              <label for="nickname" class="personal__data-label">Позывной на форуме</label>
+              <input type="text" class="personal__data-field" id="nickname">
+            </div>
+            <div class="input">
+              <label for="photo-url" class="personal__data-label">Фото</label>
+              <input type="text" class="personal__data-field personal__data-field_photo" id="photo-url">
+            </div>
+          </form>
+        </div>
+        <div class="personal__text">
+          <p class="personal__caption">Просьба указывать настоящие ФИО, это нужно для получения сертификатов</p>
+          <p class="personal__caption">Географический регион влияет на доступность некоторых курсов и занятий</p>
+          <p class="personal__caption">Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите позывной на форуме — он будет отображаться вместо ваших настоящих данных</p>
+          <ul class="personal__caption personal_list">Требования к загружаемому фото:
+            <li class="personal__list-item">разрешение не менее 640x640px</li>
+            <li class="personal__list-item">размер не более 3 МБ</li>
+          </ul>
+        </div>
+        <div class="personal__data">
+          <h2 class="personal__data-title">
+            Аккаунт
+          </h2>
+          <form name="account-data" class="personal__data-fields">
+            <div class="input">
+              <label for="phone" class="personal__data-label">Номер телефона</label>
+              <input placeholder="+7 123 456 78 90" type="tel" class="personal__data-field" id="phone">
+            </div>
+            <div class="input">
+              <label for="email" class="personal__data-label">Email</label>
+              <input type="email" class="personal__data-field" id="mail">
+            </div>
+            <div class="input">
+              <label for="password" class="personal__data-label">Пароль</label>
+              <input  type="password" class="personal__data-field" id="password">
+            </div>
+          </form>
+        </div>
+        <div class="personal__text">
+          <p class="personal__caption">Номер телефона используется как уникальный идентификатор пользователя, поэтому его нельзя поменять вручную</p>
+          <p class="personal__caption">Если по какой-то причине у вас нет доступа к номеру телефона на который вы регистрировали аккаунт, напишите в поддержку</p>
+          <p class="personal__caption">Email нужен для восстановления пароля</p>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 </html>
