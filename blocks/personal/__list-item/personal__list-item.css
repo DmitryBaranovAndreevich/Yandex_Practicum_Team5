@@ -1,0 +1,7 @@
+.personal__list-item {
+  margin-left: 32px;
+}
+
+.personal__list-item:first-of-type {
+  margin-top: 20px;
+}
