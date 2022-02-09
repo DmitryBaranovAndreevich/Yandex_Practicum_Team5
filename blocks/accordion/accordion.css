@@ -1,4 +1,5 @@
 .accordion {
-  max-width:  312px;
+  flex-basis: 312px;
   min-width: 270px;
+  margin: 0 20px 0 0;
 }
