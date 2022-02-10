@@ -45,30 +45,30 @@
           <h2 class="personal__data-title">
             Личные данные
           </h2>
-          <form class="personal__data-fields" name="about-person">
+          <form class="personal__data-fields" name="about-person" id="aboutPerson">
             <div class="input">
               <label for="fullname" class="personal__data-label">ФИО</label>
-              <input type="text" class="personal__data-field" id="fullname">
+              <input type="text" class="personal__data-field input_background-standart" id="fullname">
             </div>
             <div class="input">
               <label for="birthday" class="personal__data-label">Дата рождения</label>
-              <input type="date" class="personal__data-field" id="birthday">
+              <input type="date" class="personal__data-field input_background-standart" id="birthday">
             </div>
             <div class="input">
               <label for="town" class="personal__data-label">Географический регион</label>
-              <input type="text" class="personal__data-field" id="town">
+              <input type="text" class="personal__data-field input_background-standart" id="town">
             </div>
             <div class="input">
               <label for="nickname" class="personal__data-label">Позывной на форуме</label>
-              <input type="text" class="personal__data-field" id="nickname">
+              <input type="text" class="personal__data-field input_background-standart" id="nickname">
             </div>
             <div class="input">
               <p class="personal__data-label">Фото</p>
-              <label class="personal__data-label_photo" for="profilePhoto">
+              <label class="personal__data-label_photo input_background-file" for="profilePhoto">
                 <input class="personal__data-field_photo" type="file" id="profilePhoto" name="profilePhoto">photo.jpg
               </label>
             </div>
-            <button type="button" class="button button__profile button_type_filled">Сохранить изменения</button>
+            <button type="submit" class="button button__profile button_type_filled" id="aboutPersonButtonSave">Сохранить изменения</button>
           </form>
         </div>
 
@@ -87,22 +87,21 @@
           <h2 class="personal__data-title">
             Аккаунт
           </h2>
-          <form name="account-data" class="personal__data-fields">
+          <form name="account-data" class="personal__data-fields" id="accountData">
             <div class="input">
               <label for="phone" class="personal__data-label">Номер телефона</label>
-              <input placeholder="+7 123 456 78 90" type="tel" class="personal__data-field" id="phone">
+              <input placeholder="+7 123 456 78 90" type="tel" class="personal__data-field" id="phone" disabled>
             </div>
             <div class="input">
               <label for="email" class="personal__data-label">Email</label>
-              <input type="email" class="personal__data-field" id="mail">
+              <input type="email" class="personal__data-field input_background-standart" id="mail">
             </div>
             <div class="input">
               <label for="password" class="personal__data-label">Пароль</label>
-              <input type="password" class="personal__data-field" id="password">
+              <input type="password" class="personal__data-field input_background-standart" id="password">
             </div>
+            <button type="submit" class="button button__profile button_type_filled" id="accountDataButtonSave">Сохранить изменения</button>
           </form>
-          <button type="button" class="button button__profile button_type_disabled disabled">Сохранить
-            изменения</button>
         </div>
 
         <div class="personal__text">
@@ -115,6 +114,7 @@
       </div>
     </div>
   </main>
+  <script src="script/profileScript.js" defer></script>
 </body>
 
 </html>
