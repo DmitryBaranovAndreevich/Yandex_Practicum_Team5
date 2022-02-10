@@ -1,0 +1,23 @@
+.personal-card__button-exit {
+  width: 247px;
+  height: 48px;
+  color: #FF6600;
+  font-family: Golos;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  border: 1.2px solid #E6E7EB;
+  box-sizing: border-box;
+  border-radius: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  background-image: url('../../../images/personal-card__button-exit.svg');
+  background-repeat: no-repeat;
+  background-position: 28px center;
+  padding-left: 40px;
+  background-color: #FFFFFF;
+}
+

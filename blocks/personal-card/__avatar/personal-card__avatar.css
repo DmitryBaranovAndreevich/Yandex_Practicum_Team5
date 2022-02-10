@@ -1,0 +1,8 @@
+.personal-card__avatar {
+  width: 200px;
+  height: 200px;
+  border: 1.2px solid #E6E7EB;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 32px 0 16px;
+}
