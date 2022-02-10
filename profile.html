@@ -63,11 +63,13 @@
               <input type="text" class="personal__data-field" id="nickname">
             </div>
             <div class="input">
-              <label for="photo-url" class="personal__data-label">Фото</label>
-              <input type="text" class="personal__data-field personal__data-field_photo" id="photo-url">
+              <p class="personal__data-label">Фото</p>
+              <label class="personal__data-label_photo" for="profilePhoto">
+                <input class="personal__data-field_photo" type="file" id="profilePhoto" name="profilePhoto">photo.jpg
+              </label>
             </div>
+            <button type="button" class="button button__profile button_type_filled">Сохранить изменения</button>
           </form>
-          <button type="button" class="button button__profile button_type_filled">Сохранить изменения</button>
         </div>
 
         <div class="personal__text">
