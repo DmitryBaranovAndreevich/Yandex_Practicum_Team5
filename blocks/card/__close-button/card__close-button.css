@@ -1,4 +1,4 @@
-.active-input__close-button {
+.card__close-button {
   width: 20px;
   height: 20px;
   margin: 0 0 0 6px;
@@ -11,6 +11,6 @@
   cursor: pointer;
 }
 
-.active-input__close-button:hover {
+.card__close-button:hover {
   opacity: .6;
 }

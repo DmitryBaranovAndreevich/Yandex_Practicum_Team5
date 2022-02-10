@@ -1,11 +1,10 @@
-.active-input {
+.card__status.card__status_position_boxForActiveInput {
   display: inline-block;
   max-width: 312px;
-  background-color: #E6E7EB;
-  border-radius: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin: 16px 0 0 0;
   padding-left: 6px;
+  line-height: 20px;
+  padding-right: 0;
 }
