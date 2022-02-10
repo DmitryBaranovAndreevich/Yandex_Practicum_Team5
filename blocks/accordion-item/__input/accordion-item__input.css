@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.accordion-item__input:focus + .accordion-item__trigger {
+  cursor: pointer;
+}
+
 .accordion-item__input:checked + .accordion-item__trigger::before {
   transform: rotate(180deg);
 }

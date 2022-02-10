@@ -3,6 +3,7 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/position/position_center.css);
+@import url(../blocks/content/content.css);
 /*кнопки профиля*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__profile/button__profile.css);
