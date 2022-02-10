@@ -1,0 +1,25 @@
+.personal__data-label_photo{
+  display: flex;
+  align-items: center;
+  width: 584px;
+  height: 48px;
+  border: 1.2px solid #E6E7EB;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding-left: 15px;
+  font-family: Golos;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
+  background-image: url("../../../../images/attach-photo.svg");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+}
+
+.personal__data-label_photo:hover {
+  cursor: pointer;
+  outline: none;
+  border: 1.2px solid #ff6600;
+}
