@@ -6,7 +6,7 @@ const fullName =document.querySelector('#fullname'); /*input ФИО*/
 const birthday = document.querySelector('#birthday'); /*input Дата рождения*/
 const town = document.querySelector('#town'); /*input Географический регион*/
 const nickname = document.querySelector('#nickname'); /*input Позывной на форуме*/
-const mail = document.querySelector('#mail'); /*input Email*/
+const mail = document.querySelector('#email'); /*input Email*/
 const password = document.querySelector('#password'); /*input Пароль*/
 
 /*функция включения активной кнопки Сохранить изменения*/
