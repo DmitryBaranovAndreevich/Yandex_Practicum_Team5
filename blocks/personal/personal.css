@@ -1,6 +1,6 @@
 .personal {
-  max-width: 952px;
+  max-width: 984px;
   display: grid;
   gap: 24px;
-  grid-template-columns: 68.06% 32.77%;
+  grid-template-columns: 68.06% 29.5%;
 }
