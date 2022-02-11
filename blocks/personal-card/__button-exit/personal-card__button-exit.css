@@ -19,5 +19,10 @@
   background-position: 28px center;
   padding-left: 40px;
   background-color: #FFFFFF;
+  transition: border .5s;
 }
 
+.personal-card__button-exit:hover {
+  outline: none;
+  border: 1.2px solid #ff6600;
+}
