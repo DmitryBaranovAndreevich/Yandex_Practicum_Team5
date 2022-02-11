@@ -2,13 +2,11 @@
 @import url(../vender/fonts.css);
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/position/position_center.css);
 @import url(../blocks/text/_size/text_size_bold.css);
 @import url(../blocks/text/_size/text_size_semibold.css);
 @import url(../blocks/text/_size/text_size_medium.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/_position/position_center.css);
-
 @import url(../blocks/main-title/main-title.css);
 /* секция аккордион */
 @import url(../blocks/accordion/accordion.css);
@@ -25,12 +23,10 @@
 @import url(../blocks/accordion-item/__button/_active/accordion-item__button_active.css);
 @import url(../blocks/menu-item/__input/menu-item__input.css);
 @import url(../blocks/menu-item/__label/menu-item__label.css);
-@import url(../blocks/card/__status/_position/card__status_position_boxForActiveInput.css);
 @import url(../blocks/card/__close-button/card__close-button.css);
-@import url(../blocks/card/__status/_notActive/card__status_notActive.css);
 /* /секция аккордион */
 
-/*кнопки курсов*/
+/* кнопки курсов */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__courses/button__courses.css);
 @import url(../blocks/button/_type/button_type_disabled.css);
@@ -42,7 +38,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_active/header__link_active.css);
 @import url(../blocks/header/__link-icon/header__link-icon.css);
-
+/* /кнопки курсов */
 
 /* карточки */
 @import url(../blocks/cards/cards.css);
@@ -52,10 +48,13 @@
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__icon/card__icon.css);
-@import url(../blocks/card/__icon/_icon-book/card__icon_icon-book.css);
+@import url(../blocks/card/__icon/_book/card__icon_book.css);
 @import url(../blocks/card/__icon/_watch/card__icon_watch.css);
 @import url(../blocks/card/__status/card__status.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__flex-wrapper/card__flex-wrapper.css);
 @import url(../blocks/card/__flex-wrapper/_grow/card__flex-wrapper_grow.css);
 @import url(../blocks/card/__btn/card__btn.css);
+@import url(../blocks/card/__status/_position/card__status_position_boxForActiveInput.css);
+@import url(../blocks/card/__status/_notActive/card__status_notActive.css);
+/* /карточки */

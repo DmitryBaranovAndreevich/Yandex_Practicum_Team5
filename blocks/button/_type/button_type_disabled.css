@@ -1,9 +1,9 @@
 .button_type_disabled {
-    color: #9397a4;
-    background-color: #e6e7eb;
-    border: none;
-    transition: none;
-    cursor: default;
+  color: #9397a4;
+  background-color: #e6e7eb;
+  border: none;
+  transition: none;
+  cursor: default;
 }
 
 .button_type_disabled:hover {

@@ -1,4 +1,10 @@
 .card__title {
-  margin: 0;
+  margin: 0 10px 0 0;
   flex-grow: 1;
+}
+
+@media screen and (max-width: 960px){
+  .card__title {
+    margin-bottom: 16px;
+  }
 }

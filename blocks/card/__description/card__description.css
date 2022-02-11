@@ -1,4 +1,11 @@
 .card__description {
   margin: 24px 10px 0 0;
   max-width: 450px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .card__description {
+    margin-right: 0;
+  }
 }

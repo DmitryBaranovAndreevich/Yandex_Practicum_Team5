@@ -2,9 +2,11 @@
 @import url(../vender/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_flex-direction/page_flex-direction.css);
 @import url(../blocks/content/_position/position_center.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/main-title/main-title.css);
+@import url(../blocks/main-title/_position/main-title_position_profile.css);
 
 /*блок button*/
 @import url(../blocks/button/button.css);
@@ -26,21 +28,27 @@
 @import url(../blocks/header/__link-icon/header__link-icon.css);
 /* /секция header */
 
-
-
+/* блок input */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/_background-standart/input_background-standart.css);
 @import url(../blocks/input/_background-file/input_background-file.css);
-@import url(../blocks/personal/__data-field/_photo/personal__data-field_photo.css);
+/* /блок input */
+
+/* блок personal */
+@import url(../blocks/personal/personal.css);
+@import url(../blocks/personal/__data/personal__data.css);
+@import url(../blocks/personal/__data-title/personal__data-title.css);
 @import url(../blocks/personal/__data-fields/personal__data-fields.css);
 @import url(../blocks/personal/__data-label/personal__data-label.css);
-@import url(../blocks/personal/__data-label/_photo/personal__data-label_photo.css);
-@import url(../blocks/personal/__data-title/personal__data-title.css);
-@import url(../blocks/personal/__data/personal__data.css);
-@import url(../blocks/personal/__caption/personal__caption.css);
 @import url(../blocks/personal/__data-field/personal__data-field.css);
-@import url(../blocks/personal/personal.css);
+@import url(../blocks/personal/__data-field/_photo/personal__data-field_photo.css);
+@import url(../blocks/personal/__data-label/_photo/personal__data-label_photo.css);
+@import url(../blocks/personal/__caption/personal__caption.css);
 @import url(../blocks/personal/__list-item/personal__list-item.css);
+@import url(../blocks/personal/__text/personal__text.css);
+/* блок /personal */
+
+/* блок personal-card */
 @import url(../blocks/personal-card/personal-card.css);
 @import url(../blocks/personal-card/__title/personal-card__title.css);
 @import url(../blocks/personal-card/__avatar/personal-card__avatar.css);
@@ -50,3 +58,4 @@
 @import url(../blocks/personal-card/__skill/_mapmaker/personal-card__skill_mapmaker.css);
 @import url(../blocks/personal-card/__skill/_completed-two-courses/personal-card__skill_completed-two-courses.css);
 @import url(../blocks/personal-card/__button-exit/personal-card__button-exit.css);
+/* /блок personal-card */
