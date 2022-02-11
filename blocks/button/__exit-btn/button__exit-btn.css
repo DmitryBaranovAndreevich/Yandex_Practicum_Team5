@@ -1,0 +1,11 @@
+.button__exit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border .5s ease, opacity .5s ease;
+}
+
+.button__exit-btn:hover {
+  border: 1.2px solid #f60;
+  opacity: 1;
+}

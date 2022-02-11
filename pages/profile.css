@@ -8,6 +8,7 @@
 /*кнопки профиля*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__profile/button__profile.css);
+@import url(../blocks/button/__exit-btn/button__exit-btn.css);
 @import url(../blocks/button/__exit-icon/button__exit-icon.css);
 @import url(../blocks/button/_type/button_type_disabled.css);
 @import url(../blocks/button/_type/button_type_filled.css);
