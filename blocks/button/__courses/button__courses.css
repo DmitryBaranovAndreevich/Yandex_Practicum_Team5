@@ -1,8 +1,5 @@
 .button__courses {
   width: 224px;
-  position: absolute;
-  bottom: 32px;
-  right: 32px;
-
-
+  min-width: 160px;
+  align-self: flex-end;
 }
