@@ -2,5 +2,5 @@
   max-width: 984px;
   display: grid;
   gap: 24px;
-  grid-template-columns: minmax(450px, 65.85%) 31.7%;
+  grid-template-columns: minmax(400px, 65.85%) 31.7%;
 }
