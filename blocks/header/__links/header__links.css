@@ -1,11 +1,10 @@
 .header__links {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    column-gap: 40px;
-    align-items: end;
-    color: #212329;
-
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 40px;
+  align-items: end;
+  color: #212329;
 }
