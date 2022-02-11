@@ -1,6 +1,8 @@
 .header__link_active {
   color: #F06000;
   transition: none;
+  cursor: default;
+  pointer-events: none;
 }
 
 .header__link_active:hover {
