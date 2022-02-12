@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./pages/profile.css">
 </head>
 
-<body>
+<body class="body">
   <header class="header page__header content_position_center">
     <h2 class="header__logo">Учебная платформа</h2>
     <nav>
@@ -27,8 +27,8 @@
     </nav>
   </header>
   <main class="content content_position_center">
-    <h1 class="main-title main-title_position_profile">Профиль</h1>
-    <div class="page page_flex-direction">
+    <h1 class="main-title">Профиль</h1>
+    <div class="page">
       <div class="personal-card">
         <img class="personal-card__avatar" src="images/personal-card__avatar.png" alt="Аватар профиля">
         <h2 class="personal-card__title">Иванова Анна Сидоровна</h2>
@@ -105,7 +105,8 @@
               <label for="password" class="personal__data-label">Пароль</label>
               <input type="password" class="personal__data-field input_background-standart" id="password">
             </div>
-            <button type="submit" class="button button__profile button_type_filled" id="accountDataButtonSave">Сохранить
+            <button type="submit" class="button button__profile button_type_disabled"
+              id="accountDataButtonSave">Сохранить
               изменения</button>
           </form>
         </div>

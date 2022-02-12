@@ -1,7 +1,7 @@
 .menu-item__label {
   position: relative;
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .menu-item__label::before {

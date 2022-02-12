@@ -1,7 +1,7 @@
 .accordion-item__trigger {
   display: flex;
   flex-direction: row-reverse;
-  padding: 33px 0;
+  padding: 34px 0;
   justify-content: space-between;
   align-items: center;
 }

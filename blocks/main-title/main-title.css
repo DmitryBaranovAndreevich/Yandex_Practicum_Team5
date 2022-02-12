@@ -5,4 +5,9 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 1030px) {
+  .main-title {
+    text-align: center;
+  }
+}
 
