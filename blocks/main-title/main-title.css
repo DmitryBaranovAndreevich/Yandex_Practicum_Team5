@@ -1,5 +1,6 @@
 .main-title {
   margin: 0;
-  font: 48px/52px 'Golos','Arial', sans-serif;
+  font-size: 48px;
+  line-height: 52px;
   font-weight: 700;
 }
