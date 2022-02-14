@@ -5,3 +5,9 @@
   margin: 0;
   color: #212329;
 }
+
+@media screen and (max-width: 600px){
+  .header__logo{
+  max-width: 160px;
+  }
+}

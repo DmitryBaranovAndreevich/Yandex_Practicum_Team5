@@ -11,3 +11,10 @@
     flex-direction: column;
   }
 }
+
+
+@media screen and (max-width: 400px) {
+  .personal {
+    max-width: 300px;
+  }
+}

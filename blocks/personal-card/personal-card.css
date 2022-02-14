@@ -1,5 +1,5 @@
 .personal-card {
-  width: 312px;
+  max-width: 312px;
   flex-grow: 1;
   margin-right: 24px;
   max-height: 520px;
@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 1030px) {
   .personal-card  {
+    min-width: 300px;
     margin-bottom: 24px;
     margin-right: 0;
   }
