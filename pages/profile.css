@@ -28,8 +28,8 @@
 
 /* блок input */
 @import url(../blocks/input/input.css);
-@import url(../blocks/input/_background-standart/input_background-standart.css);
-@import url(../blocks/input/_background-file/input_background-file.css);
+@import url(../blocks/input/__background/input__background.css);
+@import url(../blocks/input/__background/_file/input__background_file.css);
 /* /блок input */
 
 /* блок personal */
@@ -54,6 +54,6 @@
 @import url(../blocks/personal-card/__skill/personal-card__skill.css);
 @import url(../blocks/personal-card/__skill/_profeccional/personal-card__skill_profeccional.css);
 @import url(../blocks/personal-card/__skill/_mapmaker/personal-card__skill_mapmaker.css);
-@import url(../blocks/personal-card/__skill/_completed-two-courses/personal-card__skill_completed-two-courses.css);
+@import url(../blocks/personal-card/__skill/_courses/personal-card__skill_courses.css);
 @import url(../blocks/personal-card/__button-exit/personal-card__button-exit.css);
 /* /блок personal-card */
