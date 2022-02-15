@@ -26,10 +26,10 @@
 @import url(../blocks/header/__link-icon/header__link-icon.css);
 /* /секция header */
 
-/* блок input */
-@import url(../blocks/input/input.css);
-@import url(../blocks/input/__background/input__background.css);
-@import url(../blocks/input/__background/_file/input__background_file.css);
+/* блок input-container */
+@import url(../blocks/input-container/input-container.css);
+@import url(../blocks/input-container/__background/input-container__background.css);
+@import url(../blocks/input-container/__background/_file/input-container__background_file.css);
 /* /блок input */
 
 /* блок personal */
@@ -52,8 +52,8 @@
 @import url(../blocks/personal-card/__avatar/personal-card__avatar.css);
 @import url(../blocks/personal-card/__skills/personal-card__skills.css);
 @import url(../blocks/personal-card/__skill/personal-card__skill.css);
-@import url(../blocks/personal-card/__skill/_profeccional/personal-card__skill_profeccional.css);
-@import url(../blocks/personal-card/__skill/_mapmaker/personal-card__skill_mapmaker.css);
-@import url(../blocks/personal-card/__skill/_courses/personal-card__skill_courses.css);
+@import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_courses.css);
+@import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_mapmaker.css);
+@import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_profeccional.css);
 @import url(../blocks/personal-card/__button-exit/personal-card__button-exit.css);
 /* /блок personal-card */
