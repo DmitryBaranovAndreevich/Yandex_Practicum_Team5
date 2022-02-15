@@ -55,7 +55,7 @@
             </div>
             <div class="input-container">
               <label for="birthday" class="personal__data-label">Дата рождения</label>
-              <input type="date" class="personal__data-field input-container__background" id="birthday">
+              <input type="date" class="personal__data-field input-container__background" id="birthday" pattern="^([0-2][0-9]|3[0-1])\.(0[1-9]|1[0-2])\.([0-9]{4})$" title="Введите дату формате дд.мм.гггг(01.01.2001)">
             </div>
             <div class="input-container">
               <label for="town" class="personal__data-label">Географический регион</label>
@@ -67,7 +67,7 @@
             </div>
             <div class="input-container">
               <p class="personal__data-label">Фото</p>
-              <label class="personal__data-label personal__data-label_photo input-container__background_file" for="profilePhoto">
+              <label class="personal__data-label personal__data-label_position_urlphoto input-container__background_file" for="profilePhoto">
                 <input class="personal__data-field personal__data-field_photo" type="file" id="profilePhoto" name="profilePhoto">photo.jpg
               </label>
             </div>

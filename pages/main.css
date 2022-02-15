@@ -12,7 +12,7 @@
 @import url(../blocks/accordion/accordion.css);
 @import url(../blocks/accordion/__container/accordion__container.css);
 @import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
-@import url(../blocks/accordion/__boxForActiveInput/accordion__boxForActiveInput.css);
+@import url(../blocks/accordion/__boxForActiveInput/accordion__box-active-input.css);
 @import url(../blocks/accordion-item/accordion-item.css);
 @import url(../blocks/accordion-item/__title/accordion-item__title.css);
 @import url(../blocks/accordion-item/__trigger/accordion-item__trigger.css);

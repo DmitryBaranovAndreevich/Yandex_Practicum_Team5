@@ -5,7 +5,12 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   padding-left: 6px;
+  margin-right: 10px;
   line-height: 20px;
   padding-right: 0;
   margin-bottom: 0;
+}
+
+.card__status_position_boxForActiveInput:last-child {
+  margin-right: 0;
 }

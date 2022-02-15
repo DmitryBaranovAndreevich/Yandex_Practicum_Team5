@@ -13,6 +13,7 @@ function clickToCleanButton() {
       item.remove();
     });
   }
+  this.classList.remove('accordion-item__button_active');
 });
 }
 
