@@ -5,11 +5,3 @@
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
-.menu-item__input:checked + .menu-item__label {
-  color: #F06000;
-}
-
-.menu-item__input:checked + .menu-item__label::before {
-  background: url(../../../images/menu_active.png) no-repeat center/cover;
-  border: none;
-}
