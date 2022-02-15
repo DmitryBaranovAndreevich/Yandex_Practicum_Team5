@@ -39,7 +39,7 @@
 @import url(../blocks/personal/__data-fields/personal__data-fields.css);
 @import url(../blocks/personal/__data-label/personal__data-label.css);
 @import url(../blocks/personal/__data-field/personal__data-field.css);
-@import url(../blocks/personal/__data-field/_photo/personal__data-field_photo.css);
+@import url(../blocks/personal/__data-field/_none/personal__data-field_none.css);
 @import url(../blocks/personal/__data-label/_photo/personal__data-label_photo.css);
 @import url(../blocks/personal/__caption/personal__caption.css);
 @import url(../blocks/personal/__list-item/personal__list-item.css);
