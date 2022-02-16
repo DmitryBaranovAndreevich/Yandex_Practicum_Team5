@@ -39,8 +39,8 @@
 @import url(../blocks/personal/__data-fields/personal__data-fields.css);
 @import url(../blocks/personal/__data-label/personal__data-label.css);
 @import url(../blocks/personal/__data-field/personal__data-field.css);
-@import url(../blocks/personal/__data-field/_anvisible/personal__data-field_anvisible.css);
-@import url(../blocks/personal/__data-label/_position/personal__data-label_position_url-photo.css);
+@import url(../blocks/personal/__data-field/_none/personal__data-field_none.css);
+@import url(../blocks/personal/__data-label/_photo/personal__data-label_photo.css);
 @import url(../blocks/personal/__caption/personal__caption.css);
 @import url(../blocks/personal/__list-item/personal__list-item.css);
 @import url(../blocks/personal/__text/personal__text.css);
@@ -55,5 +55,4 @@
 @import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_courses.css);
 @import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_mapmaker.css);
 @import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_profeccional.css);
-@import url(../blocks/personal-card/__button-exit/personal-card__button-exit.css);
 /* /блок personal-card */
