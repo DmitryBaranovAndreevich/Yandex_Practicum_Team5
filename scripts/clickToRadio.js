@@ -1,6 +1,10 @@
+const allItem = accardion.querySelectorAll('.accordion-item');
+
+
 function clickToRadio() {
-  fieldset.forEach(item => {
-      const radio = item.querySelectorAll('.menu-item__input');
+    const card = searhFieldset('Уровень');
+    const item = card.querySelector('.accordion-item__content');
+    const radio = item.querySelectorAll('.menu-item__input');
       radio.forEach(item => {
         item.addEventListener('click', function(e) {
           const clone = cloneTemplate(item);
@@ -24,5 +28,17 @@ function clickToRadio() {
             }
         });
       });
-  });
+
+}
+
+clickToRadio();
+
+function searhFieldset(name) {
+  let returnFalue;
+  allItem.forEach(elem => {
+    const item = elem.querySelector('.accordion-item__input');
+    const nameItem = item? item.name: null;
+    nameItem == name? returnFalue = elem: null;
+ });
+  return returnFalue;
 }

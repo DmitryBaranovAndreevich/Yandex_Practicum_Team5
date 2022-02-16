@@ -5,8 +5,3 @@ const inputTemplate = document.querySelector('.active-input').content;
 const allTags = boxInput.querySelectorAll('.card__status');
 const cleanButton = accardion.querySelector('.accordion-item__button');
 const boxActiveInput = accardion.querySelector('.accordion__box-active-input')
-
-
-clickToRadio();
-clickToCleanButton();
-

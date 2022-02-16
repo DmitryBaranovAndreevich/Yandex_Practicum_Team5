@@ -1,4 +1,7 @@
 .button__courses {
+  display: block;
+  padding: 12px 0;
+  text-decoration: none;
   width: 224px;
   min-width: 160px;
   align-self: flex-end;

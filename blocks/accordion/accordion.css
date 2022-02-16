@@ -9,3 +9,10 @@
     margin-right: 0;
   }
 }
+
+@media screen and (max-width: 570px) {
+.accordion {
+    max-width: 300px;
+    width: 100%;
+  }
+}
