@@ -2,6 +2,9 @@
   position: relative;
   display: block;
   margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .menu-item__label::before {

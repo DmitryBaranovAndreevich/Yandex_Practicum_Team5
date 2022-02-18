@@ -1,4 +1,4 @@
-.card__status_position_boxForActiveInput {
+.card__status_position_box-active-input {
   display: inline-block;
   max-width: 312px;
   overflow: hidden;
@@ -11,6 +11,6 @@
   margin-bottom: 0;
 }
 
-.card__status_position_boxForActiveInput:last-child {
+.card__status_position_box-active-input:last-child {
   margin-right: 0;
 }

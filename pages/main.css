@@ -12,7 +12,7 @@
 @import url(../blocks/accordion/accordion.css);
 @import url(../blocks/accordion/__container/accordion__container.css);
 @import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
-@import url(../blocks/accordion/__boxForActiveInput/accordion__box-active-input.css);
+@import url(../blocks/accordion/__box-active-input/accordion__box-active-input.css);
 @import url(../blocks/accordion-item/accordion-item.css);
 @import url(../blocks/accordion-item/__title/accordion-item__title.css);
 @import url(../blocks/accordion-item/__trigger/accordion-item__trigger.css);
@@ -55,6 +55,6 @@
 @import url(../blocks/card/__flex-wrapper/card__flex-wrapper.css);
 @import url(../blocks/card/__flex-wrapper/_type/card__flex-wrapper_type_grow.css);
 @import url(../blocks/card/__btn/card__btn.css);
-@import url(../blocks/card/__status/_position/card__status_position_boxForActiveInput.css);
+@import url(../blocks/card/__status/_position/card__status_position_box-active-input.css);
 @import url(../blocks/card/__status/_notActive/card__status_notActive.css);
 /* /карточки */
