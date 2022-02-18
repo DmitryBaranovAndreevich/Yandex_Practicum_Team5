@@ -1,14 +1,4 @@
 .page {
-  max-width:  1320px;
-  padding-top: 32px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 1030px) {
-  .page {
-    flex-direction: column;
-    align-items: center;
-  }
+  max-width: 1440px;
+  width: 100%;
 }
