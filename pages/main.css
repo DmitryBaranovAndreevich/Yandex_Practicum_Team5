@@ -21,7 +21,7 @@
 @import url(../blocks/accordion-item/__content/accordion-item__content.css);
 @import url(../blocks/accordion-item/__button/accordion-item__button.css);
 @import url(../blocks/accordion-item/__button/_active/accordion-item__button_active.css);
-@import url(../blocks/menu-item/__input/menu-item__input.css);
+@import url(../blocks/menu-item/menu-item.css);
 @import url(../blocks/menu-item/__label/menu-item__label.css);
 @import url(../blocks/card/__close-button/card__close-button.css);
 /* /секция аккордион */

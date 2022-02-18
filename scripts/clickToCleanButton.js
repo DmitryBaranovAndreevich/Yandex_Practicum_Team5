@@ -1,7 +1,7 @@
 function clickToCleanButton() {
   cleanButton.addEventListener('click', function() {
      fieldset.forEach(item => {
-      const radio = item.querySelectorAll('.menu-item__input');
+      const radio = item.querySelectorAll('.menu-item');
       radio.forEach(item => {
         item.checked = false;
       });
