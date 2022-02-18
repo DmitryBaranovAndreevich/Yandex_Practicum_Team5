@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 /* @media screen and (max-width: 680px) {
   .personal__text {
     display: none;
   }
 } */
+=======
+.personal__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #9397a3;
+}
+>>>>>>> b09c25eab141b27b9f3cec17de18dd8f84c42231

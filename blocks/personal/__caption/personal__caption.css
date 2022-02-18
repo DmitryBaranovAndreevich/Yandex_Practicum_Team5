@@ -1,9 +1,12 @@
 .personal__caption {
+<<<<<<< HEAD
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   color: #9397a3;
+=======
+>>>>>>> b09c25eab141b27b9f3cec17de18dd8f84c42231
   margin: 0 0 18px 0;
   padding: 0;
 }

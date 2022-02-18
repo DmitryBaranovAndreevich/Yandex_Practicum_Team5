@@ -1,7 +1,11 @@
 .personal-card__skills {
   list-style: none;
   padding: 0;
+<<<<<<< HEAD
   margin: 32px 0 32px 26px;
+=======
+  margin: 32px 0 32px 24px;
+>>>>>>> b09c25eab141b27b9f3cec17de18dd8f84c42231
   align-self: flex-start;
 }
 
