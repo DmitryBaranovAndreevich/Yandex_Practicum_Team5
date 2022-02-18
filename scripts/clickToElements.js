@@ -1,5 +1,5 @@
 const accardion = document.querySelector('.accordion');
-const fieldset = accardion.querySelectorAll('.accordion-item__content');
+const fieldset = accardion.querySelectorAll('.menu-item');
 const boxInput = accardion.querySelector('.accordion__box-active-input');
 const inputTemplate = document.querySelector('.active-input').content;
 const allTags = boxInput.querySelectorAll('.card__status');

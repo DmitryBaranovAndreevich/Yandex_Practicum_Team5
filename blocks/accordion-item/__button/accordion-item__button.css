@@ -5,6 +5,9 @@
   background-color: transparent;
   transition: opacity .4s;
   display: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .accordion-item__button:hover {

@@ -2,7 +2,7 @@
   background: #E6E7EB;
   border-radius: 16px;
   padding: 0 8px;
-  margin-top: 16px;
+  margin: 16px 0 0 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

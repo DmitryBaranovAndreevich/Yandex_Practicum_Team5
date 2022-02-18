@@ -35,45 +35,44 @@
             <div class="accordion-item">
               <div class="accordion-item__title-container">
                 <h2 class="accordion-item__title">Фильтры</h2>
-                <button class="accordion-item__button" type="reset"
-                  aria-label="Очистить">Очистить</button>
+                <button class="accordion-item__button" type="reset" aria-label="Очистить">Очистить</button>
               </div>
             </div>
             <div class="accordion-item">
               <input class="accordion-item__input" type="checkbox" id="accordion-item1" name="Категория">
               <label for="accordion-item1" class="accordion-item__trigger">Категория</label>
-              <!-- <fieldset class="accordion-item__content">
-                      <input type="checkbox" class="menu-item" name="???" id="#1" value="????">
+              <!-- <fieldset class="menu-item">
+                      <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
                       <label class="menu-item__label text_size_medium" for="#1">?????</label>
-                      <input type="checkbox" class="menu-item" name="????" id="#2" value="???????">
+                      <input type="checkbox" class="menu-item__input" name="????" id="#2" value="???????">
                       <label class="menu-item__label" for="#2">?????</label>
-                      <input type="checkbox" class="menu-item" name="???????" id="??????" value="????????">
+                      <input type="checkbox" class="menu-item__input" name="???????" id="??????" value="????????">
                       <label class="menu-item__label" for="professional">?????</label>
               </fieldset> -->
             </div>
             <div class="accordion-item">
               <input class="accordion-item__input" type="checkbox" id="accordion-item2" name="Тематика">
               <label for="accordion-item2" class="accordion-item__trigger">Тематика</label>
-              <!-- <fieldset class="accordion-item__content">
-                      <input type="checkbox" class="menu-item" name="???" id="#1" value="????">
+              <!-- <fieldset class="menu-item">
+                      <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
                       <label class="menu-item__label text_size_medium" for="#1">?????</label>
-                      <input type="checkbox" class="menu-item" name="????" id="#2" value="???????">
+                      <input type="checkbox" class="menu-item__input" name="????" id="#2" value="???????">
                       <label class="menu-item__label text_size_medium" for="#2">?????</label>
-                      <input type="checkbox" class="menu-item" name="???????" id="??????" value="????????">
+                      <input type="checkbox" class="menu-item__input" name="???????" id="??????" value="????????">
                       <label class="menu-item__label text_size_medium" for="professional">?????</label>
               </fieldset> -->
             </div>
             <div class="accordion-item">
               <input class="accordion-item__input" type="checkbox" id="accordion-item3" name="Уровень">
               <label for="accordion-item3" class="accordion-item__trigger">Уровень</label>
-              <fieldset class="accordion-item__content">
-                <input type="checkbox" class="menu-item" name="Новичек" id="newcommer"
+              <fieldset class="menu-item">
+                <input type="checkbox" class="menu-item__input" name="Новичек" id="newcommer"
                   value="without_experience">
                 <label class="menu-item__label" for="newcommer">Новичок</label>
-                <input type="checkbox" class="menu-item" name="Бывалый" id="experienced"
+                <input type="checkbox" class="menu-item__input" name="Бывалый" id="experienced"
                   value="small_experience">
                 <label class="menu-item__label" for="experienced">Бывалый</label>
-                <input type="checkbox" class="menu-item" name="Профессионал" id="professional"
+                <input type="checkbox" class="menu-item__input" name="Профессионал" id="professional"
                   value="big_experience">
                 <label class="menu-item__label" for="professional">Профессионал</label>
               </fieldset>
@@ -81,15 +80,16 @@
             <div class="accordion-item">
               <input class="accordion-item__input" type="checkbox" id="accordion-item4" name="Статус">
               <label for="accordion-item4" class="accordion-item__trigger">Статус</label>
-              <fieldset class="accordion-item__content">
-                <input type="checkbox" class="menu-item" name="Не активный" id="not_active" value="not_activated">
+              <fieldset class="menu-item">
+                <input type="checkbox" class="menu-item__input" name="Не активный" id="not_active"
+                  value="not_activated">
                 <label class="menu-item__label" for="not_active">Не активный</label>
-                <input type="checkbox" class="menu-item" name="Вы записаны" id="recorded"
+                <input type="checkbox" class="menu-item__input" name="Вы записаны" id="recorded"
                   value="small_activated">
                 <label class="menu-item__label" for="recorded">Вы записаны</label>
-                <input type="checkbox" class="menu-item" name="Активный" id="active" value="middle_activated">
+                <input type="checkbox" class="menu-item__input" name="Активный" id="active" value="middle_activated">
                 <label class="menu-item__label" for="active">Активный</label>
-                <input type="checkbox" class="menu-item" name="Пройден" id="finish" value="big_experience">
+                <input type="checkbox" class="menu-item__input" name="Пройден" id="finish" value="big_experience">
                 <label class="menu-item__label" for="finish">Пройден</label>
               </fieldset>
             </div>
@@ -116,7 +116,7 @@
                 <p class="card__description">
                   Поисково-спасательная работа, следовая работа, а так же поиск тел погибших с помощью собак
                 </p>
-                <a href="#" class="button button__courses button_type_transparent">Записаться</a>
+                <a href="#" class="button button_position_courses button_type_transparent">Записаться</a>
               </div>
             </div>
           </li>
@@ -136,7 +136,7 @@
                   Оперативное реагирование, контроль поступающих заявок и звонков, распределение задач,
                   помощь в решении вопросов, удалённое ...
                 </p>
-                <a href="#" class="button button__courses button_type_transparent">Записаться</a>
+                <a href="#" class="button button_position_courses button_type_transparent">Записаться</a>
               </div>
             </div>
           </li>
@@ -156,7 +156,7 @@
                   Применение БПЛА в поиске людей, а так же передача полученной с помощью техники информации
                   спасательным службам
                 </p>
-                <a href="#" class="button button__courses button_type_transparent">Записаться</a>
+                <a href="#" class="button button_position_courses button_type_transparent">Записаться</a>
               </div>
             </div>
           </li>
@@ -176,7 +176,7 @@
                   Основы оказания первой помощи на поиске, юридические аспекты,
                   базовые алгоритмы, разбор ошибок при оказания помощи на поиске
                 </p>
-                <a href="#" class="button button__courses button_type_disabled">Пройден</a>
+                <a href="#" class="button button_position_courses button_type_disabled">Пройден</a>
               </div>
             </div>
           </li>
@@ -196,7 +196,7 @@
                 <p class="card__description">
                   Создание ориентировок, заказ карт, связь через мини АТС, обеспечение поиска
                 </p>
-                <a href="#" class="button button__courses button_type_transparent">Записаться</a>
+                <a href="#" class="button button_position_courses button_type_transparent">Записаться</a>
               </div>
             </div>
           </li>
@@ -216,7 +216,7 @@
                 <p class="card__description">
                   Приём заявок на поиск людей с последующей передачей информации инфоргам
                 </p>
-                <a href="#" class="button button__courses button_type_transparent">Записаться</a>
+                <a href="#" class="button button_position_courses button_type_transparent">Записаться</a>
               </div>
             </div>
           </li>
@@ -236,7 +236,7 @@
                 <p class="card__description">
                   Прозвон больниц, ОВД, различных ведомств, иногда свидетелей и возможных свидетелей
                 </p>
-                <a href="#" class="button button__courses button_type_transparent">Записаться</a>
+                <a href="#" class="button button_position_courses button_type_transparent">Записаться</a>
               </div>
             </div>
           </li>
@@ -256,7 +256,7 @@
                   Короткое описание курса. людей в лесу и в городе. Все поисковые мероприятия
                   организуются силами добровольцев «ЛизаАлер…
                 </p>
-                <a href="#" class="button button__courses button_type_disabled">Пройден</a>
+                <a href="#" class="button button_position_courses button_type_disabled">Пройден</a>
               </div>
             </div>
           </li>
@@ -265,8 +265,8 @@
     </div>
   </main>
   <template class="active-input">
-    <p class="card__status card__status_position_box-active-input"><button
-        class="card__close-button" type="button" aria-label="Закрыть"></button></p>
+    <p class="card__status card__status_position_box-active-input"><button class="card__close-button" type="button"
+        aria-label="Закрыть"></button></p>
   </template>
   <script src="./scripts/clickToElements.js"></script>
   <script src="./scripts/cloneTemplate.js"></script>

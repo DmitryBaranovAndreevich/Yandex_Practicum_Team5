@@ -3,8 +3,8 @@ const allItem = accardion.querySelectorAll('.accordion-item');
 
 function clickToRadio() {
     const card = searhFieldset('Уровень');
-    const item = card.querySelector('.accordion-item__content');
-    const radio = item.querySelectorAll('.menu-item');
+    const item = card.querySelector('.menu-item');
+    const radio = item.querySelectorAll('.menu-item__input');
       radio.forEach(item => {
         item.addEventListener('click', function(e) {
           const clone = cloneTemplate(item);

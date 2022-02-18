@@ -17,6 +17,6 @@
   transform: rotate(180deg);
 }
 
-.accordion-item__input:checked ~.accordion-item__content {
+.accordion-item__input:checked ~.menu-item {
   display: block;
 }

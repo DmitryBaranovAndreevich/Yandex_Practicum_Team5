@@ -2,12 +2,19 @@
 @import url(../vender/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/text/_size/text_size_bold.css);
-@import url(../blocks/text/_size/text_size_semibold.css);
-@import url(../blocks/text/_size/text_size_medium.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/body/__content/body__content.css);
 @import url(../blocks/main-title/main-title.css);
+
+/* секция header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__link-icon/header__link-icon.css);
+/* секция /header */
+
 /* секция аккордион */
 @import url(../blocks/accordion/accordion.css);
 @import url(../blocks/accordion/__container/accordion__container.css);
@@ -18,26 +25,20 @@
 @import url(../blocks/accordion-item/__trigger/accordion-item__trigger.css);
 @import url(../blocks/accordion-item/__input/accordion-item__input.css);
 @import url(../blocks/accordion-item/__title-container/accordion-item__title-container.css);
-@import url(../blocks/accordion-item/__content/accordion-item__content.css);
 @import url(../blocks/accordion-item/__button/accordion-item__button.css);
 @import url(../blocks/accordion-item/__button/_active/accordion-item__button_active.css);
 @import url(../blocks/menu-item/menu-item.css);
 @import url(../blocks/menu-item/__label/menu-item__label.css);
+@import url(../blocks/menu-item/__input/menu-item__input.css);
 @import url(../blocks/card/__close-button/card__close-button.css);
 /* /секция аккордион */
 
 /* кнопки курсов */
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/__courses/button__courses.css);
+@import url(../blocks/button/_position/button_position_courses.css);
 @import url(../blocks/button/_type/button_type_disabled.css);
 @import url(../blocks/button/_type/button_type_filled.css);
 @import url(../blocks/button/_type/button_type_transparent.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/_active/header__link_active.css);
-@import url(../blocks/header/__link-icon/header__link-icon.css);
 /* /кнопки курсов */
 
 /* карточки */
