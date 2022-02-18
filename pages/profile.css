@@ -2,19 +2,16 @@
 @import url(../vender/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/content/_position/position_center.css);
+@import url(../blocks/body/__content/body__content.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/main-title/main-title.css);
 
 /*блок button*/
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/__profile/button__profile.css);
-@import url(../blocks/button/__exit-btn/button__exit-btn.css);
 @import url(../blocks/button/__exit-icon/button__exit-icon.css);
 @import url(../blocks/button/_type/button_type_disabled.css);
 @import url(../blocks/button/_type/button_type_filled.css);
 @import url(../blocks/button/_type/button_type_transparent.css);
-@import url(../blocks/button/_type/button_type_exit-icon.css);
 /*блок /button*/
 
 /* секция header */
@@ -41,9 +38,10 @@
 @import url(../blocks/personal/__data-field/personal__data-field.css);
 @import url(../blocks/personal/__data-field/_none/personal__data-field_none.css);
 @import url(../blocks/personal/__data-label/_position/personal__data-label_position_url-photo.css);
+@import url(../blocks/personal/__text/personal__text.css);
 @import url(../blocks/personal/__caption/personal__caption.css);
 @import url(../blocks/personal/__list-item/personal__list-item.css);
-@import url(../blocks/personal/__text/personal__text.css);
+@import url(../blocks/personal/__button/personal__button.css);
 /* блок /personal */
 
 /* блок personal-card */
@@ -55,4 +53,5 @@
 @import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_courses.css);
 @import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_mapmaker.css);
 @import url(../blocks/personal-card/__skill/_type/personal-card__skill_type_profeccional.css);
+@import url(../blocks/personal-card/__button/personal-card__button.css);
 /* /блок personal-card */
