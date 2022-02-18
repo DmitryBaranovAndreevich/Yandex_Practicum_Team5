@@ -4,6 +4,9 @@
   padding: 34px 0;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .accordion-item__trigger::before {
