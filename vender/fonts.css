@@ -1,20 +1,20 @@
 @font-face {
-  src: url(../vender/fonts/golos_text/Golos_Text_Bold.woff2),
-       url(../vender/fonts/golos_text/Golos_Text_Bold.woff);
+  src: url(../golos_text/Golos_Text_Bold.woff2),
+       url(../golos_text/Golos_Text_Bold.woff);
   font-family: 'Golos';
-  font-weight: 700;
+  font-family: 700;
 }
 
 @font-face {
-  src: url(../vender/fonts/golos_text/Golos_Text_Medium.woff2),
-       url(../vender/fonts/golos_text/Golos_Text_Medium.woff);
+  src: url(../golos_text/Golos_Text_Medium.woff2),
+       url(../golos_text/Golos_Text_Medium.woff);
   font-family: 'Golos';
-  font-weight: 500;
+  font-family: 500;
 }
 
 @font-face {
-  src: url(../vender/fonts/golos_text/Golos_Text_Regular.woff2),
-       url(../vender/fonts/golos_text/Golos_Text_Regular.woff);
+  src: url(../golos_text/Golos_Text_Regular.woff2),
+       url(../golos_text/Golos_Text_Regular.woff);
   font-family: 'Golos';
-  font-weight: 400;
+  font-family: 400;
 }
