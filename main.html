@@ -7,10 +7,270 @@
   <title>Лиза Алерт</title>
   <link rel="stylesheet" href="./pages/main.css">
 </head>
-<body>
-  <div class="page position_center"> 
-    <header class="header"></header>
-    <main class="content"></main>
-  </div>
+
+<body class="body">
+  <header class="header body__content">
+    <h2 class="header__logo">Учебная платформа</h2>
+    <nav>
+      <ul class="header__links">
+        <li>
+          <a class="header__link header__link_active" href="main.html">
+            <img class="header__link-icon" src="./images/сoursHeadIconActive.svg"
+              alt="Иконка курсов в шапке">Курсы</a>
+        </li>
+        <li>
+          <a class="header__link" href="profile.html">
+            <img class="header__link-icon" src="./images/profHeadIcon.svg"
+              alt="Иконка профиля в шапке">Профиль</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content body__content">
+    <h1 class="main-title">Курсы</h1>
+    <div class="page">
+      <!-- секция аккордион -->
+      <form class="accordion" name="filtres" id="accordion">
+        <div class="accordion__container">
+          <div class="accordion__wrapper">
+            <div class="accordion-item">
+              <div class="accordion-item__title-container">
+                <h2 class="accordion-item__title text_size_bold">Фильтры</h2>
+                <button class="accordion-item__button text_size_semibold" type="reset"
+                  aria-label="Очистить" >Очистить</button>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item1" name="Категория">
+              <label for="accordion-item1" class="accordion-item__trigger text_size_medium">Категория</label>
+              <!-- <fieldset class="accordion-item__content">
+                <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
+                      <label class="menu-item__label text_size_medium" for="#1">?????</label>
+                      <input type="checkbox" class="menu-item__input" name="????" id="#2" value="???????">
+                      <label class="menu-item__label text_size_medium" for="#2">?????</label>
+                      <input type="checkbox" class="menu-item__input" name="???????" id="??????" value="????????">
+                      <label class="menu-item__label text_size_medium" for="professional">?????</label>
+              </fieldset> -->
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item2" name="Тематика">
+              <label for="accordion-item2" class="accordion-item__trigger text_size_medium">Тематика</label>
+              <!-- <fieldset class="accordion-item__content">
+                <input type="checkbox" class="menu-item__input" name="???" id="#1" value="????">
+                          <label class="menu-item__label text_size_medium" for="#1">?????</label>
+                          <input type="checkbox" class="menu-item__input" name="????" id="#2" value="???????">
+                          <label class="menu-item__label text_size_medium" for="#2">?????</label>
+                          <input type="checkbox" class="menu-item__input" name="???????" id="??????" value="????????">
+                          <label class="menu-item__label text_size_medium" for="professional">?????</label>
+              </fieldset> -->
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item3" name="Уровень">
+              <label for="accordion-item3" class="accordion-item__trigger text_size_medium">Уровень</label>
+              <fieldset class="accordion-item__content">
+                <input type="checkbox" class="menu-item__input" name="Новичек" id="newcommer"
+                  value="without_experience">
+                <label class="menu-item__label text_size_medium" for="newcommer">Новичок</label>
+                <input type="checkbox" class="menu-item__input" name="Бывалый" id="experienced"
+                  value="small_experience">
+                <label class="menu-item__label text_size_medium" for="experienced">Бывалый</label>
+                <input type="checkbox" class="menu-item__input" name="Профессионал" id="professional"
+                  value="big_experience">
+                <label class="menu-item__label text_size_medium" for="professional">Профессионал</label>
+              </fieldset>
+            </div>
+            <div class="accordion-item">
+              <input class="accordion-item__input" type="checkbox" id="accordion-item4" name="Статус">
+              <label for="accordion-item4" class="accordion-item__trigger text_size_medium">Статус</label>
+              <fieldset class="accordion-item__content">
+                <input type="checkbox" class="menu-item__input" name="Не активный" id="not_active" value="not_activated">
+                <label class="menu-item__label text_size_medium" for="not_active">Не активный</label>
+                <input type="checkbox" class="menu-item__input" name="Вы записаны" id="recorded"
+                  value="small_activated">
+                <label class="menu-item__label text_size_medium" for="recorded">Вы записаны</label>
+                <input type="checkbox" class="menu-item__input" name="Активный" id="active" value="middle_activated">
+                <label class="menu-item__label text_size_medium" for="active">Активный</label>
+                <input type="checkbox" class="menu-item__input" name="Пройден" id="finish" value="big_experience">
+                <label class="menu-item__label text_size_medium" for="finish">Пройден</label>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div class="accordion__box-active-input">
+        </div>
+      </form>
+      <!-- /секция аккордион -->
+      <section class="cards">
+        <ul class="card-list">
+          <li class="card">
+            <img src="./images/img/img-7.jpg" alt="Овчарка" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Кинологическое направление</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Бывалый</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Поисково-спасательная работа, следовая работа, а так же поиск тел погибших с помощью собак
+                </p>
+                <a href="#" class="button button__courses button_type_transparent" >Записаться</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img.jpg" alt="Дежурный в оранжевой форме" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Оперативные дежурные</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Профессионал</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Оперативное реагирование, контроль поступающих заявок и звонков, распределение задач,
+                  помощь в решении вопросов, удалённое ...
+                </p>
+                <a href="#" class="button button__courses button_type_transparent" >Записаться</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img-1.jpg" alt="Квадрокоптер" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Беспилотные летательные аппараты</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Бывалый</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Применение БПЛА в поиске людей, а так же передача полученной с помощью техники информации
+                  спасательным службам
+                </p>
+                <a href="#" class="button button__courses button_type_transparent" >Записаться</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img-2.jpg" alt="Сумка-Аптечка" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Первая помощь</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Бывалый</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Основы оказания первой помощи на поиске, юридические аспекты,
+                  базовые алгоритмы, разбор ошибок при оказания помощи на поиске
+                </p>
+                <a href="#"  class="button button__courses button_type_disabled">Пройден</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img-3.jpg" alt="Девушка сидит перед ноутбуком и делает заметки в блокноте" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Инфогруппа</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Новичок</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Создание ориентировок, заказ карт, связь через мини АТС, обеспечение поиска
+                </p>
+                <a href="#"  class="button button__courses button_type_transparent" >Записаться</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img-4.jpg" alt="Оператор с телефоном в руке принимает входящий звонок" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Операторы 8-800</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Новичок</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Приём заявок на поиск людей с последующей передачей информации инфоргам
+                </p>
+                <a href="#"  class="button button__courses button_type_transparent" >Записаться</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img-5.jpg" alt="Оператор с телефоном в руке звонит в разные службы " class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Группа коротких прозвонов</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Новичок</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Прозвон больниц, ОВД, различных ведомств, иногда свидетелей и возможных свидетелей
+                </p>
+                <a href="#"  class="button button__courses button_type_transparent" >Записаться</a>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/img/img-6.jpg" alt="Доброволец в оранжевой форме дежурного" class="card__image">
+            <div class="card__content">
+              <div class="card__flex-wrapper">
+                <h3 class="card__title text_size_bold">Новичковая</h3>
+                <p class="card__icon card__icon_type_book text_size_medium">144 занятия</p>
+              </div>
+              <div class="card__flex-wrapper">
+                <p class="card__status text_size_medium">Новичок</p>
+                <p class="card__icon card__icon_type_watch text_size_medium">144 ч</p>
+              </div>
+              <div class="card__flex-wrapper card__flex-wrapper_type_grow">
+                <p class="card__description text_size_medium">
+                  Короткое описание курса. людей в лесу и в городе. Все поисковые мероприятия
+                  организуются силами добровольцев «ЛизаАлер…
+                </p>
+                <a href="#"  class="button button__courses button_type_disabled" >Пройден</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <template class="active-input">
+    <p class="card__status card__status_position_boxForActiveInput text_size_medium"><button
+        class="card__close-button" type="button" aria-label="Закрыть"></button></p>
+  </template>
+<script src="./scripts/clickToElements.js"></script>
+<script src="./scripts/cloneTemplate.js"></script>
+<script src="./scripts/clickToButton.js"></script>
+<script src="./scripts/clickToCleanButton.js"></script>
+<script src="./scripts/clickToRadio.js"></script>
 </body>
+
 </html>

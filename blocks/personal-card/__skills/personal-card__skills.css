@@ -1,0 +1,14 @@
+.personal-card__skills {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 32px 24px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 500px){
+  .personal-card__skills {
+    margin-left: 0;
+    align-self:center
+  }
+}
+

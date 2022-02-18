@@ -1,0 +1,13 @@
+.main-title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1030px) {
+  .main-title {
+    text-align: center;
+  }
+}
+
