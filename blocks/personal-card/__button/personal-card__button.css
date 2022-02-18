@@ -1,0 +1,13 @@
+.personal-card__button {
+  width: 246px;
+  margin: 0 auto 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border .5s ease;
+}
+
+.personal-card__button:hover {
+  border: 1.2px solid #f60;
+  opacity: 1;
+}
