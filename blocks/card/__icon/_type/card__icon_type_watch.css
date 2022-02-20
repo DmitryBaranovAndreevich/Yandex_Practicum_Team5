@@ -1,0 +1,3 @@
+.card__icon_type_watch::before {
+  background: url(../../../../images/clock-icon-vctr.svg) no-repeat center/cover;
+}

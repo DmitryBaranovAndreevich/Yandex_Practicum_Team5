@@ -1,0 +1,3 @@
+.card__icon_type_book::before {
+  background: url(../../../../images/book-icon-vctr.svg) no-repeat center/cover;
+}

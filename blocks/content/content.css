@@ -1,0 +1,20 @@
+.content {
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 24px 60px 40px;
+  background-color: #FCFCFC;
+}
+
+@media screen and (max-width: 1250px) {
+  .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

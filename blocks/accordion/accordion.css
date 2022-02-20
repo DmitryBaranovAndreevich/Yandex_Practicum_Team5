@@ -1,0 +1,18 @@
+.accordion {
+  flex-basis: 312px;
+  min-width: 270px;
+  margin: 0 20px 0 0;
+}
+
+@media screen and (max-width: 1030px) {
+  .accordion {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 570px) {
+.accordion {
+    max-width: 300px;
+    width: 100%;
+  }
+}

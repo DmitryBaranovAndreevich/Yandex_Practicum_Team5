@@ -1,0 +1,13 @@
+.card__status {
+  background: #E6E7EB;
+  border-radius: 16px;
+  padding: 0 8px;
+  margin: 16px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
