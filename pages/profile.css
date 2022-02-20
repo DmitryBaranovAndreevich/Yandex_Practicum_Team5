@@ -26,7 +26,6 @@
 /* блок input-container */
 @import url(../blocks/input-container/input-container.css);
 @import url(../blocks/input-container/__background/input-container__background.css);
-@import url(../blocks/input-container/__background/_file/input-container__background_file.css);
 /* /блок input */
 
 /* блок personal */
